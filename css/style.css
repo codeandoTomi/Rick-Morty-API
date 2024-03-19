@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #aed0d0; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: azure; }
+  header nav ul a {
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: 600; }
+  header nav ul a:hover {
+    color: chartreuse; }
+
+.paginas {
+  background-color: chocolate;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 30%; }
+  .paginas label, .paginas select {
+    padding: 10px;
+    margin: 10px; }
+  .paginas select {
+    background-color: blueviolet;
+    border-radius: 8px;
+    width: 60%; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+
+#resultado {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  #resultado .divDesdeJS {
+    margin: 5px;
+    padding: 10px; }
+    #resultado .divDesdeJS .card {
+      background-color: chartreuse; }
+      #resultado .divDesdeJS .card img {
+        width: 250px; }
+      #resultado .divDesdeJS .card .pCB {
+        padding: 5px 0px; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: crimson; }
+
+footer {
+  background-color: cadetblue; }
+  footer h3 {
+    padding: 20px; }
+  footer img {
+    width: 80px; }
+  footer .footer2 {
+    display: flex;
+    justify-content: space-around; }
+
+@media only screen and (max-width: 768px) {
+  #resultado .divDesdeJS .card img {
+    width: 150px; } }
